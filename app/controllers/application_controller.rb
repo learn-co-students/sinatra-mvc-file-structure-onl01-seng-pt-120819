@@ -9,5 +9,9 @@ class ApplicationController < Sinatra::Base
   	erb :index
   end
 
-  
+  get "/info" do
+    erb :info
+  end
+
+
 end
