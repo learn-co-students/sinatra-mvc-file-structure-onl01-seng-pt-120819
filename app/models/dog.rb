@@ -1,6 +1,6 @@
 class Dog
 
-attr_accessor: :name, :breed, :age
+attr_accessor :name, :breed, :age
 
 @@dogs = []
 
@@ -11,7 +11,7 @@ attr_accessor: :name, :breed, :age
     @@dogs << self
   end
 
-def all
+def self.all
   @@dogs
 end
 
